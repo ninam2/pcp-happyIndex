@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "de.happyindex")
+@ComponentScan(basePackages = "de.HappinessIndex")
 @EnableAutoConfiguration
 public class Application {
 

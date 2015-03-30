@@ -8,7 +8,7 @@
         <artifactId>pcp-parent</artifactId>
         <version>2.15</version>
     </parent>
-    <groupId>de.axelspringer.ideas.pcp</groupId>
+    <groupId>de.axelspringer.ideas</groupId>
     <artifactId>happyIndex</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
