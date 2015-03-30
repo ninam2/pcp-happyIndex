@@ -1,14 +1,14 @@
 package de.happyindex;
 
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RestController
-public class Controller {
+@Controller
+public class IndexController {
 
     @RequestMapping("/hello")
     public String index() {
-        return "Hello World from Spring Boot!";
+        return "public/index.html";
     }
 
 }
