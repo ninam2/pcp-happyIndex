@@ -11,14 +11,31 @@
         <module>happiness-index-application</module>
         <module>happiness-index-frontend</module>
     </modules>
-<dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>de.axelspringer.ideas.pcp</groupId>
-            <artifactId>happiness-index-frontend</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
-</dependencyManagement>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>de.axelspringer.ideas.pcp</groupId>
+                <artifactId>happiness-index-frontend</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.2</version>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+
+        </pluginManagement>
+    </build>
 
 </project>
