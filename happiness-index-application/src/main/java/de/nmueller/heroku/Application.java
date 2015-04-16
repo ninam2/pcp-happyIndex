@@ -1,3 +1,5 @@
+package de.nmueller.heroku;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
@@ -6,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = "de.HappinessIndex")
+@ComponentScan(basePackages = "de.nmueller.heroku")
 @EnableAutoConfiguration
 public class Application {
 
