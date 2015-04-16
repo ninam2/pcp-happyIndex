@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.axelspringer.ideas</groupId>
-    <artifactId>happyIndex</artifactId>
+    <artifactId>exampleHelloWorldProject</artifactId>
     <packaging>pom</packaging>
     <version>1.1-SNAPSHOT</version>
     <modules>
-        <module>happiness-index-application</module>
-        <module>happiness-index-frontend</module>
+        <module>exampleHelloWorldProject-application</module>
+        <module>exampleHelloWorldProject-frontend</module>
     </modules>
     <dependencyManagement>
         <dependencies>
